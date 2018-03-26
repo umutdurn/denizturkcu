@@ -1,4 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="kategorilistele.ascx.cs" Inherits="admin_moduller_kategorilistele" %>
+<asp:TextBox ID="txtArama" runat="server" placeholder="Kullanıcı adı ara"></asp:TextBox>
 <asp:SqlDataSource ID="rptKategoriDuzenle_db" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT * FROM [tbl_Kategoriler]"></asp:SqlDataSource>
 <table id="example2" class="table table-bordered table-hover">
 <asp:Repeater ID="rptKategoriDuzenle" runat="server" DataSourceID="rptKategoriDuzenle_db" OnItemCommand="rptKategoriDuzenle_ItemCommand">

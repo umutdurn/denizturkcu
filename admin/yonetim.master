@@ -110,7 +110,12 @@
                     <li><a href="?v=dersl">Ders Listele</a></li>
                 </ul>
             </li>
-              <li class="active"><a href="?v=siparis"><i class="fa fa-circle-o"></i> Siparişler</a>
+            <li class="active"><a href="?v=siparis"><i class="fa fa-circle-o"></i> Siparişler</a>
+                <%--<ul class="treeview-menu">
+                    <li><a href="?v=dersl">Ders Listele</a></li>
+                </ul>--%>
+            </li>
+              <li class="active"><a href="?v=uyeler"><i class="fa fa-circle-o"></i> Üye Listesi</a>
                 <%--<ul class="treeview-menu">
                     <li><a href="?v=dersl">Ders Listele</a></li>
                 </ul>--%>

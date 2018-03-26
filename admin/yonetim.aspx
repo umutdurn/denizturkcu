@@ -5,11 +5,7 @@
 <%@ Register Src="~/admin/moduller/kategorilistele.ascx" TagPrefix="uc1" TagName="kategorilistele" %>
 <%@ Register Src="~/admin/moduller/derslistele.ascx" TagPrefix="uc1" TagName="derslistele" %>
 <%@ Register Src="~/admin/moduller/siparisler.ascx" TagPrefix="uc1" TagName="siparisler" %>
-
-
-
-
-
+<%@ Register Src="~/admin/moduller/uyeler.ascx" TagPrefix="uc1" TagName="uyeler" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
@@ -79,6 +75,15 @@
                     </div>
                     <div class="box-body">
                         <uc1:siparisler runat="server" ID="siparisler" />
+                    </div>
+                </asp:Panel>
+                <asp:Panel ID="pnluyeler" runat="server" Visible="false">
+                    <div class="box-header">
+                        <i class="fa fa-comments-o"></i>
+                        <h3 class="box-title">Üye Listesi</h3>
+                    </div>
+                    <div class="box-body">
+                        <uc1:uyeler runat="server" ID="uyeler" />
                     </div>
                 </asp:Panel>
             </asp:Panel>

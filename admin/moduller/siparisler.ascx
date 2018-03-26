@@ -1,4 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="siparisler.ascx.cs" Inherits="admin_moduller_siparisler" %>
+
 <asp:SqlDataSource ID="rptSiparisListe_db" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT * FROM [tbl_Siparisler]"></asp:SqlDataSource>
 <table id="example2" class="table table-bordered table-hover">
 <asp:Repeater ID="rptSiparisListe" runat="server" DataSourceID="rptSiparisListe_db" OnItemCommand="rptSiparisListe_ItemCommand">
